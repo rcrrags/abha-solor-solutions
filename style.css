@@ -1,0 +1,172 @@
+/* Fonts Imported */
+@font-face {
+  font-family: 'BIKO';
+  src: url(font/biko/Biko_Bold.otf);
+ } 
+@font-face {
+  font-family:'VIYONA' ;
+  src: url(font/viyona/Viyona.ttf);
+}
+@font-face {
+  font-family:'QUICK' ;
+  src: url(font/font/quicksand/Quicksand_Book.otf);
+}
+@font-face {
+  font-family:'ALONE' ;
+  src: url(font/alone/AloneintheDark.ttf);
+}
+@font-face {
+  font-family:'TMP' ;
+  src: url(font/tmp/vkfonts2/Millunium-BOLD.ttf);
+}
+/* Fonts */
+.font1{
+  font-family: 'BIKO';
+  
+}
+.font2{
+  font-family: 'VIYONA';
+  
+}
+.font3{
+  font-family: 'QUICK';
+}
+.font4{
+  font-family: 'ALONE';
+}
+.mainfont{
+  font-family: 'TMP';
+}
+
+:root {
+  --blue: #007bff;
+  --darkblue: #22395d;
+  --beige: #ece6cd;
+  --grey: #54566e;
+  --white: #eeeeee;
+  --orginalwhite: white;
+  --aqua: #4115b0;
+  --highlightblue :  rgba(256, 256, 256, .05);
+}
+
+/* Background Colours */
+.bg-blue {
+  background: var(--blue);
+}
+
+.bg-darkblue {
+  background: var(--darkblue);
+}
+
+.bg-grey {
+  background: var(--grey);
+}
+
+.bg-aqua {
+  background: var(--aqua);
+}
+.bg-highlightblue{
+  background: var(--highlightblue);
+}
+/* Navbar Start */
+.active-page {
+    color: var(--blue) !important;
+    font-weight: bold;
+  }
+.text-hover:hover {
+  color: var(--blue) !important;
+  font-weight: bold;
+}
+
+/* text color */
+.text-blue{
+    color: var(--blue) !important;
+}
+.text-aqua {
+  color: var(--aqua);
+}
+.text-darkblue{
+  color:var(--darkblue) !important;
+}
+.text-grey{
+  color: var(--grey);
+}
+/* button  */
+.btn-blue{
+    background-color: var(--blue) !important;
+}
+.btn-darkblue{
+    background-color: var(--darkblue) !important;
+}
+
+/* letter spacing */
+.letter-spacing{
+    letter-spacing: 3px;
+}
+/* Subsity Section */
+.subsity{
+    background: linear-gradient(
+         rgba(58, 51, 51, 0.78),
+        rgba(0, 0, 0, 0.78)
+        
+    ),url(IMG/subsity.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    min-height: 65vh;
+    opacity: 1;
+}
+.faq {
+  /* margin-bottom: 30px; */
+  padding-bottom: 20px;
+}
+
+.faq::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 2px;
+  bottom: 12px;
+  left: calc(50% - 75px);
+  background:var(--blue);
+}
+.faq::after {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 2px;
+  bottom: 8px;
+  left: calc(50% - 60px);
+  background:var(--blue);
+}
+
+/* Footer */
+.footerbold :hover{
+font-weight: bolder;
+}
+.footerunderlined:hover{
+  text-decoration: underline;
+}
+/* Project Page*/
+.img-cover {
+  object-fit: cover;
+  object-position: center;
+}
+.negative-margin{
+  margin-left: -1rem !important ;
+}
+.boxshadow{
+  box-shadow: 7px 7px 6px var(--grey);
+}
+.imgsize{
+  height: 15rem;
+  width: 20rem;
+}
+.cardheight{
+  height: 41rem;
+}
+/* @media screen and (min-width: 200px ) and (max-width: 768px) {
+.cardheight{
+  height: 100vh;
+}
+} */
